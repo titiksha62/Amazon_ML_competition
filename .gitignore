@@ -1,0 +1,30 @@
+# Virtual Environments
+venv/
+env/
+.env
+
+# Cache and temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Data and Outputs
+data_raw/
+data_intermediates/
+submissions/
+not_usable/
+*.csv
+*.xlsx
+
+# Trained Models (If you want to keep them, use Git LFS instead or comment this out)
+assets_trained/
+*.pkl
+*.h5
+*.hdf5
+*.keras
+
+# Miscellaneous
+test_failed_links.csv
+train_failed_links.csv
